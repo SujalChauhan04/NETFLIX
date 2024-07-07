@@ -9,7 +9,7 @@ A responsive frontend clone of the Netflix website. This project is built using 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
-- [License](#license)
+- [License](#LICENSE)
 
 ## Demo
 
