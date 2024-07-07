@@ -8,9 +8,7 @@ A responsive frontend clone of the Netflix website. This project is built using 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+
 - [License](#license)
 
 ## Demo
@@ -29,12 +27,10 @@ A live demo of the Netflix clone can be found [here](#).
 
 - HTML
 - CSS
-- [Bootstrap](https://getbootstrap.com/) (for responsive layout)
-- [Font Awesome](https://fontawesome.com/) (for icons)
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/netflix-clone.git
+git clone https://github.com/SujalChauhan04/netflix-clone.git
