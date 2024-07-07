@@ -6,9 +6,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    background-color: black;
+}
+
 .main {
     background-image: url(/NETFLIX/assets/images/bg.jpg);
-    height: 80vh;
+    height: 70vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -17,7 +21,7 @@
 
 .main .box {
     opacity: 0.44;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background-color: black;
     position: absolute;
@@ -41,7 +45,7 @@ nav img {
 }
 
 nav button {
-    width: 80px;
+    width: 60px;
     position: relative;
     z-index: 10;
 }
@@ -50,7 +54,7 @@ nav button {
     font-family: "Martel Sans", sans-serif;
     font-family: "Poppins", sans-serif;
 
-    height: 100%;
+    height: calc(100% -60px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,20 +62,68 @@ nav button {
     color: white;
     position: relative;
     gap: 23px;
+    padding: 0 30px;
+
 
 }
 
-.hero :first-child{
+.hero> :first-child {
     font-weight: 900;
     font-size: 48px;
+    text-align: center;
 }
 
-.hero :nth-child(2){
+.hero> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 
-.hero :nth-child(3){
+.hero> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 8px;
+    background-color: rgb(85, 81, 81);
+
+}
+
+.btn {
+    padding: 3 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 24px;
+    border-radius: 5px;
+
+}
+
+.main input{
+    padding: 10px 24px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(227, 217, 217, 0.5);
+}
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
 }
