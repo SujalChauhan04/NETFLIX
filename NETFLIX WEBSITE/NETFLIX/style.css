@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    background-image: url(/NETFLIX/assets/images/bg.jpg);
+    background-image: url(assets/images/bg.jpg);
     height: 70vh;
     position: relative;
     background-position: center center;
@@ -93,8 +93,12 @@ nav button {
 
 .btn {
     padding: 3 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight:400;
+    background-color: rgba(78, 71, 71, 0.532);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-red {
@@ -103,27 +107,76 @@ nav button {
     padding: 3px 24px;
     font-size: 24px;
     border-radius: 5px;
+    font-weight: 400;
 
 }
 
-.main input{
-    padding: 10px 24px;
-    font-weight: 900;
-    font-size: 12px;
-    border-radius: 4px;
-    background-color: rgba(23,23,23,0.7);
-    border: 1px solid rgba(227, 217, 217, 0.5);
-}
 .btn-red-sm {
     background-color: red;
     color: white;
 
 }
 
-.hero-buttons{
+
+.main input {
+    padding: 10px 24px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(227, 217, 217, 0.5);
+    color: white;
+}
+
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto; 
+    color: white;
+    align-items: center;
+
+}
+
+.secimg{
+position: relative;    
+}
+
+.secimg img{
+    max-width: 30vw;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    max-width: 26vw;
+
+}
+
+section.first >div{
+    display: flex;
+    flex-direction: column;
+
+}
+section.first >div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first >div :nth-child(2){
+    font-size: 24px;
 
 }
