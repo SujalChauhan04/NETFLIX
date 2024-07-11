@@ -34,3 +34,11 @@ A live demo of the Netflix clone can be found [here](#). will add later.
 
 ```bash
 git clone https://github.com/SujalChauhan04/netflix-clone.git
+
+
+
+WHAT'S LEFT
+RESPONSIVE
+FOOTER
+SEPERATION COLOR
+VIDEO ADJUST
