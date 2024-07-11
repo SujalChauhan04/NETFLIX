@@ -182,53 +182,167 @@ section.first>div :nth-child(2) {
 
 }
 
-.faq {
-    background-color: black;
-    color: white;
-    padding: 34px;
-
-}
-
-.faq h2 {
-    text-align: center;
-    font-size: 48px;
-
-}
-
-
-.faqbox:hover {
-    background-color: #414141
-}
-
-.faqbox {
-    color: white;
-    transition: all 1s ease-out;
-    font-size: 24px;
+.faq{
+    margin-top: 50px;
     display: flex;
-    background-color: #2d2d2d;
-    padding: 24px;
-    margin: 34px auto;
-    max-width: 60vw;
-    justify-content: space-between;
-    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.faqbox{
+    transition: all 500ms ease-in-out;
+  background-color: #2d2d2d;
+  padding: 24px;  
+  width: 70vw;
+  max-width: 70vw;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin: 34px auto;
 
 }
+
 
 .faqbox svg {
     filter: invert(1);
 }
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-    max-width: 60vw;
-    margin: auto;
 
+.faqbox:hover{
+    background-color: rgba(147, 138, 138, 0.7);;
 }
 
-.footer-item {
+footer{
+    max-width: 80vw;
+    margin: auto;
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 34px;
+}
+
+footer .question
+{
+    padding: 34px 0px 12px 0px;
+}
+
+footer a{
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item{
     display: flex;
     flex-direction: column;
+}
 
+footer button select
+{
+    font-size: 15px;
+}
+
+.extra{
+    margin-top: 24px;
+}
+
+.extra div{
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .first > div :first-child{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    
+    .first > div :nth-child(2){
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .secImg img{
+        width: 450px;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .secImg video{
+        position: absolute;
+        top: 51px;
+        right: 0;
+        width: 450px;
+    }
+
+    .hero > :nth-child(1){
+        font-size: 32px;
+    }
+
+    .hero > :nth-child(2){
+        font-size: 18px;
+    }
+
+    .hero > :nth-child(3){
+        font-size: 18px;
+    }
+
+    nav{
+        max-width: 90vw;
+    }
+
+    nav img{
+        width: 120px;
+        position: relative;
+        z-index: 10;
+    }
+
+    nav button{
+        font-size: 15px;
+    }
+
+    nav button select{
+        font-size: 15px;    
+    }
+
+    .input{
+        flex-direction: column;
+    }
+
+    input{
+        padding-right: 0px;
+    }
+
+    .faq h2{
+        font-size: 32px;
+    }
+
+    footer{
+        max-width: 90vw;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
 }
