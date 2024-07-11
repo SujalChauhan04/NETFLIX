@@ -93,7 +93,7 @@ nav button {
 
 .btn {
     padding: 3 8px;
-    font-weight:400;
+    font-weight: 400;
     background-color: rgba(78, 71, 71, 0.532);
     color: white;
     border: 1px solid white;
@@ -136,21 +136,21 @@ nav button {
 
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     max-width: 70vw;
-    margin: auto; 
+    margin: auto;
     color: white;
     align-items: center;
 
 }
 
-.secimg{
-position: relative;    
+.secimg {
+    position: relative;
 }
 
-.secimg img{
+.secimg img {
     max-width: 30vw;
     position: relative;
     z-index: 10;
@@ -158,7 +158,7 @@ position: relative;
 
 }
 
-.secimg video{
+.secimg video {
     position: absolute;
     top: 51px;
     right: 0;
@@ -166,39 +166,41 @@ position: relative;
 
 }
 
-section.first >div{
+section.first>div {
     display: flex;
     flex-direction: column;
 
 }
-section.first >div :nth-child(1){
+
+section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
 
-section.first >div :nth-child(2){
+section.first>div :nth-child(2) {
     font-size: 24px;
 
 }
 
-.faq{
+.faq {
     background-color: black;
     color: white;
     padding: 34px;
-    
+
 }
 
-.faq h2{
+.faq h2 {
     text-align: center;
     font-size: 48px;
-    
+
 }
 
 
-.faqbox:hover{background-color: #414141
+.faqbox:hover {
+    background-color: #414141
 }
 
-.faqbox{
+.faqbox {
     color: white;
     transition: all 1s ease-out;
     font-size: 24px;
@@ -212,21 +214,21 @@ section.first >div :nth-child(2){
 
 }
 
-.faqbox svg{
-    filter: invert(1); 
+.faqbox svg {
+    filter: invert(1);
 }
 
-footer{
+footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
     max-width: 60vw;
     margin: auto;
-    
+
 }
 
-.footer-item{
+.footer-item {
     display: flex;
     flex-direction: column;
-    
+
 }
