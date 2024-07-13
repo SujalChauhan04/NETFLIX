@@ -86,8 +86,8 @@ nav button {
 }
 
 .seperation {
-    height: 8px;
-    background-color: rgb(85, 81, 81);
+    height: 6px;
+    background-color: rgb(59, 58, 58);
 
 }
 
@@ -206,7 +206,7 @@ section.first>div :nth-child(2) {
   font-size: 24px;
   display: flex;
   justify-content: space-between;
-  margin: 34px auto;
+  margin: 3px auto;
 
 }
 
@@ -262,6 +262,21 @@ footer button select
 .extra div{
     margin-top: 8px;
 }
+
+.hero input{
+    padding: 11px 30px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(227, 217, 217, 0.5);
+    color: white;
+    margin: 20px;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 @media screen and (max-width: 1300px) {
     .first{
