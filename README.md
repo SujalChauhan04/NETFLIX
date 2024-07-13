@@ -39,5 +39,4 @@ git clone https://github.com/SujalChauhan04/netflix-clone.git
 
 WHAT'S LEFT?
 
-SEPERATION COLOR
 VIDEO ADJUST
