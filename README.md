@@ -13,7 +13,7 @@ A responsive frontend clone of the Netflix website. This project is built using 
 
 ## Demo
 
-A live demo of the Netflix clone can be found [here](#). will add later.
+A live demo of the Netflix clone can be found [here](https://sujalchauhan04.github.io/NETFLIX/). will add later.
 
 ## Features
 
