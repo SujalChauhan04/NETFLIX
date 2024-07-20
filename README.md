@@ -8,7 +8,6 @@ A responsive frontend clone of the Netflix website. This project is built using 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-
 - [License](https://github.com/SujalChauhan04/NETFLIX/blob/main/LICENSE)
 
 ## Demo
