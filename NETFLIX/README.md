@@ -13,7 +13,7 @@ A responsive frontend clone of the Netflix website. This project is built using 
 
 ## Demo
 
-A live demo of the Netflix clone can be found [here](https://sujalchauhan04.github.io/NETFLIX/). will add later.
+A live demo of the Netflix clone can be found [here](https://sujalchauhan04.github.io/NETFLIX/). 
 
 ## Features
 
@@ -34,4 +34,6 @@ A live demo of the Netflix clone can be found [here](https://sujalchauhan04.gith
 
 ```bash
 git clone https://github.com/SujalChauhan04/netflix-clone.git
+
+
 
